@@ -1,0 +1,29 @@
+{
+  "n_duplicates_removed": 119,
+  "n_raw": 1531,
+  "n_model": 1399,
+  "K": 3,
+  "stability_ari_mean": 0.9551818469236015,
+  "silhouette": 0.38183835654539455,
+  "ami_cluster_decade": 0.01959389151569057,
+  "text_K": 8,
+  "severity_best_honest": {
+    "model": "Random forest",
+    "macro_f1": 0.369521737697314,
+    "accuracy": 0.49750384024577576
+  },
+  "arima": {
+    "order": [
+      2,
+      1,
+      2
+    ],
+    "holdout_rmse": {
+      "ARIMA(2, 1, 2)": 11.47,
+      "Naive (last value)": 13.8,
+      "Naive (mean of last 5)": 10.48
+    },
+    "pre1970_mean": 3.6714285714285713,
+    "1970_2015_mean": 20.195652173913043
+  }
+}

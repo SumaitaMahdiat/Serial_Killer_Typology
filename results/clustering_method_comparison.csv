@@ -1,0 +1,5 @@
+method,clusters,noise_points,silhouette,ARI_vs_KMeans
+KMeans,3,0,0.3818383565146444,1.0
+GaussianMixture,3,0,-0.05114307868094432,0.060681170886251926
+Agglomerative (ward),3,0,0.3632638262004097,0.7894321839529617
+"DBSCAN (eps=0.6, min=10)",1,106,,0.05227140443495735

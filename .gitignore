@@ -1,0 +1,14 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+.DS_Store
+# raw data: check the Kaggle dataset license before committing it
+data/*.csv
+# never commit credentials
+.env
+kaggle.json
+*token*
+
+# derived per-offender table (real names); regenerate with the notebook
+results/model_sample_with_clusters.csv
